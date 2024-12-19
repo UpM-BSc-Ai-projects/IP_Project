@@ -10,5 +10,5 @@ To use the image background remover, their is required structure for the directo
 1. Make sure the `Image Denoising` directory is downloaded and saved on your device
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. You'll need to download the actual pre-trained model and save it inside the `saved_models/u2net/` directory. Download the model from this [Google Drive Folder](https://drive.google.com/file/d/1ao1ovG1Qtx4b7EoskHXmi2E9rp5CHLcZ/view)
-4. You might need to fix the file paths used in the `app.py` file to allow the code to run on your own local machine
-5. Run the app.py script: `python app.py`
+4. You might need to fix the file paths used in the `__init__.py` file to allow the code to run on your own local machine
+5. Run the app.py script: `python __init__.py`
