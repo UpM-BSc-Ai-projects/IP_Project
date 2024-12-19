@@ -1,20 +1,14 @@
 # Image Background Remover Python Script With U2Net
-Remove Backgrounds From Images with u2net Trained model
 
-I was surfing the internet searching for AI tools, and I stumbled upon an Image Background Remover service called Remove.Bg. But I was shocked with the pricing. 0.2$ / Image!
+This project utilizes the pretrained U2NET model for background removal. The code for background removal is based on the [Image-Background-Remover-Python](https://github.com/hassancs91/Image-Background-Remover-Python) repository. For more details on how the model was implemented, please refer to the original repository.
 
-So I decided to take the challenge and build my own Image Background Remover without relying on any APIs or Third Parties.
+## Overview
+The Image Background Remover is a program designed to remove backgrounds from images using advanced techniques such as deep learning and image processing. This code was specifically used for cleaning, removing the background and processing date images. It was used during the Medina Hackathon 2023 for enhancing our dataset. The application leverages a pre-trained U2NET model for effective background removal and includes various scripts for processing images, renaming files, and analyzing pixel values.
 
-After Searching for a couple of days, I found a great python project on GitHub, Called U2Net.
-
-A Big Shootout and Thanks to the authors of this project!
-
-I trued my best to make things as simple as possible, so even newbies, can use and run the python script I built.
-
-I created a Short Video Showing The Script & How to use it, and I pointed to two special secrets that may help you build an online income stream with the help of this script. here is the video:
-https://youtu.be/KkhPN7Z4Fy8
-
-Download The Project Source Code With Trainined Model Here:
-https://learnwithhasan.com/remove-image-background-with-python/
-
-Thank You!
+## Usage
+To use the image background remover, their is required structure for the directories for the program to work. The code and model inside the `Image Denoising` directory is independant of the files and directories outside of it. You can download the `Image Denoising` by itself to run this code individually.
+1. Make sure the `Image Denoising` is downloaded and saved on your device
+2. Install the required dependencies: `pip install -r requirements.txt`
+3. You'll need to download the actual pre-trained model and save it inside the `saved_models/u2net/` directory. Download the model from this [Google Drive Folder](https://drive.google.com/file/d/1ao1ovG1Qtx4b7EoskHXmi2E9rp5CHLcZ/view)) 
+4. You might need to fix the file paths used in the `app.py` file to allow the code to run on your own local machine
+5. Run the app.py script: `python app.py`
