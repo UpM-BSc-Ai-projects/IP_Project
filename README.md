@@ -15,7 +15,7 @@
     - [Nutritional Value Prediction of Dates Using Machine Learning and Deep Learning](#nutritional-value-prediction-of-dates-using-machine-learning-and-deep-learning)
         - [Objective](#objective)
         - [Dataset](#dataset)
-        - [Usage](#usage)
+        - [Usage](#nutritional-usage)
 
 
 ---
@@ -126,7 +126,7 @@ The predictions are made directly from date images, reducing the need for manual
 - Normalized pixel values to range `[0, 1]`.
 - Split into **80% training** and **20% testing** datasets.
 
-### Usage
+### Nutritional Usage
 
 1. Clone the repository:
 
