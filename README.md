@@ -1,7 +1,7 @@
 This repo is the derived implementation of InstantMesh. For original repo, visit https://github.com/TencentARC/InstantMesh
 ## Dependencies and Installation
 We recommend using Python>=3.10, PyTorch>=2.1.0, and CUDA>=12.1.
-
+```
 conda create --name instantmesh python=3.10
 conda activate instantmesh
 pip install -U pip
@@ -22,3 +22,4 @@ pip install triton
 
 # Install other requirements
 pip install -r requirements.txt
+```
