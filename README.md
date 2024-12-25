@@ -16,6 +16,7 @@
         - [Objective](#objective)
         - [Dataset](#dataset)
         - [Usage](#nutritional-usage)
+4. [License](#license)
 
 
 ---
@@ -86,7 +87,11 @@ pip install triton
 pip install -r requirements.txt
 ```
 
+---
+
 # Others
+
+This section includes code and models that, while not directly integral to the project, were utilized to streamline tasks, or serve as tools to achieve specific objectives, or enhance the project's overall value and outcomes.
 
 ---
 
