@@ -2,7 +2,7 @@
 
 ## **Table of Contents**
 1. [Image Preprocessing](#image-preprocessing)
-    - [Image Background Remover Python Script With U2Net](#image-background-remover-python-script-with-u2net)
+    - [Image Background Remover With U2Net](#image-background-remover-python-script-with-u2net)
         - [Overview](#overview)
         - [Usage](#usage)
 
