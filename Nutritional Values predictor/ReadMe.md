@@ -138,7 +138,7 @@ streamlit run app.py
 
     5.	Upload a date image to predict its nutritional values.
 
-Challenges and Future Work
+## Challenges and Future Work
 
 Challenges
 • Data Imbalance: Limited samples for certain date types.
@@ -149,7 +149,7 @@ Future Work
 • Implement data augmentation techniques.
 • Include uncertainty quantification in predictions.
 
-License
+## License
 
 This project is licensed under the MIT License.
 
