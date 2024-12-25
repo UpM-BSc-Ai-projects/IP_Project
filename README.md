@@ -1,4 +1,8 @@
+### InstantMesh
 This repo is the derived implementation of InstantMesh. For original repo, visit https://github.com/TencentARC/InstantMesh
+
+for an intercative demo visit [![Button Text](https://img.shields.io/badge/Button-Click%20Here-blue)]([https://your-link.com](https://colab.research.google.com/drive/1spbyRA6ZNWDsZU1ZHt_-w_a4aeqZF9KU?usp=sharing))
+
 ## Dependencies and Installation
 We recommend using Python>=3.10, PyTorch>=2.1.0, and CUDA>=12.1.
 ```
