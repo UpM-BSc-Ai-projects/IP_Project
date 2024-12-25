@@ -1,7 +1,7 @@
 ### InstantMesh
 This repo is the derived implementation of InstantMesh. For original repo, visit https://github.com/TencentARC/InstantMesh
 
-for an google colab demo visit [![Button Text](https://colab.research.google.com/drive/1spbyRA6ZNWDsZU1ZHt_-w_a4aeqZF9KU?usp=sharing)
+for an google colab demo visit [![Button Text](https://colab.research.google.com/drive/1spbyRA6ZNWDsZU1ZHt_-w_a4aeqZF9KU?usp=sharing]
 ## 3D examples
 
 ![Demo](https://github.com/UpM-BSc-Ai-projects/IP_Project/blob/main/CloneInstantMesh/BD_3D_example.gif)
