@@ -124,17 +124,17 @@ The project uses two major approaches:
    ```
    
 2.	Install dependencies:
-   ```
+   ```bash
    pip install -r requirements.txt
    ```
    
 3.	Train the model:
-   ```
+   ```bash
    python train_model.py
    ```
 
 4.	Run the Streamlit app:
-   ```
+   ```bash
    streamlit run app.py
    ```
 
