@@ -11,6 +11,15 @@
     - [Model Architecture](#model-architecture)
     - [Dependencies and Installation](#dependencies-and-installation)
 
+3. [Others](#others)
+    - [Nutritional Value Prediction of Dates Using Machine Learning and Deep Learning](#nutritional-value-prediction-of-dates-using-machine-learning-and-deep-learning)
+        - [Objective](#objective)
+        - [Dataset](#dataset)
+        - [Usage](#usage)
+
+
+---
+
 # Image Preprocessing
 
 ## Image Background Remover Python Script With U2Net
@@ -32,7 +41,7 @@ To use the image background remover, their is required structure for the directo
 5. Run the app.py script: `python __init__.py`
 
 
-
+---
 
 # 3D Image Reconstruction Using InstantMesh
 
@@ -75,3 +84,77 @@ pip install triton
 
 # Install other requirements
 pip install -r requirements.txt
+```
+
+# Others
+
+---
+
+## Nutritional Value Prediction of Dates Using Machine Learning and Deep Learning
+
+This project aims to predict the nutritional values of date fruits based on their images using machine learning (ML) and deep learning (DL). The solution leverages Convolutional Neural Networks (CNNs) and pretrained architectures to deliver accurate and efficient predictions.
+
+### Objective
+
+The goal is to estimate the following nutritional parameters of date fruits:
+
+- Calories
+- Carbohydrates
+- Proteins
+- Total Fat
+- Glucose
+- Cholesterol
+- Vitamins
+- Water Content
+- Energy
+
+The predictions are made directly from date images, reducing the need for manual or laboratory-based testing.
+
+### Dataset
+
+1. **Images:**
+   - Images of 8 types of dates, stored in separate folders.
+   - Each image corresponds to a specific date variety.
+2. **Labels:**
+   - `nutritional_values.csv`: A file containing nutritional values for each image.
+
+#### Preprocessing
+
+- Images resized to:
+  - **28x28 (CNNs)** for simplicity.
+  - **224x224 (Pretrained Models)** for feature extraction.
+- Normalized pixel values to range `[0, 1]`.
+- Split into **80% training** and **20% testing** datasets.
+
+### Usage
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/UpM-BSc-Ai-projects/IP_Project.git
+   cd nutritional-value-prediction
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Train the model:
+
+   ```bash
+   python train_model.py
+   ```
+
+4. Run the Streamlit app:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+5. Upload a date image to predict its nutritional values.
+
+For more detailed information about the model used and performance, refer to the [full README](https://github.com/UpM-BSc-Ai-projects/IP_Project/tree/main/Nutritional%20Values%20predictor#readme).
+
+
