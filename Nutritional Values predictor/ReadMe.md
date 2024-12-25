@@ -118,25 +118,27 @@ The project uses two major approaches:
 ### **Run Instructions**
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/UpM-BSc-Ai-projects/IP_Project.git
    cd nutritional-value-prediction
-
-   2.	Install dependencies:
+   ```
+   
+2.	Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+   
+3.	Train the model:
+   ```
+   python train_model.py
    ```
 
-pip install -r requirements.txt
+4.	Run the Streamlit app:
+   ```
+   streamlit run app.py
+   ```
 
-    3.	Train the model:
-
-python train_model.py
-
-    4.	Run the Streamlit app:
-
-streamlit run app.py
-
-    5.	Upload a date image to predict its nutritional values.
+5.	Upload a date image to predict its nutritional values.
 
 ## Challenges and Future Work
 
