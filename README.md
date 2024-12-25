@@ -12,7 +12,7 @@ for an intercative demo visit [![Button Text](https://img.shields.io/badge/Butto
 
 ## Model Architecture
 
-![Logo](https://github.com/UpM-BSc-Ai-projects/IP_Project/CloneInstantMesh/model_architecture.png)
+![Logo](https://github.com/UpM-BSc-Ai-projects/IP_Project/blob/main/CloneInstantMesh/model_architecture.png)
 
 ## Dependencies and Installation
 We recommend using Python>=3.10, PyTorch>=2.1.0, and CUDA>=12.1.
