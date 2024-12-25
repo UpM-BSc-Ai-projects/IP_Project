@@ -2,7 +2,7 @@
 
 ## **Table of Contents**
 1. [Image Preprocessing](#image-preprocessing)
-    - [Image Background Remover With U2Net](#image-background-remover-python-script-with-u2net)
+    - [Image Background Remover With U2Net](#image-background-remover-using-u2net)
         - [Overview](#overview)
         - [Usage](#usage)
 
@@ -22,7 +22,7 @@
 
 # Image Preprocessing
 
-## Image Background Remover Python Script With U2Net
+## Image Background Remover Using U2Net
 
 This project utilizes the pretrained U2NET model for background removal. The code for background removal is based on the [Image-Background-Remover-Python](https://github.com/hassancs91/Image-Background-Remover-Python) repository. For more details on how the model was implemented, please refer to the original repository.
 
@@ -157,4 +157,12 @@ The predictions are made directly from date images, reducing the need for manual
 
 For more detailed information about the model used and performance, refer to the [full README](https://github.com/UpM-BSc-Ai-projects/IP_Project/tree/main/Nutritional%20Values%20predictor#readme).
 
+---
 
+## License
+
+This project incorporates models and code developed by other contributors, which are governed by their respective licenses. Specifically:  
+
+- The **Background Remover Using U2Net** and **3D Reconstruction Using InstantMesh** components are licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).  
+
+The remaining parts of this project, including custom implementations and additional features, are licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).  
