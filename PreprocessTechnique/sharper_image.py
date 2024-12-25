@@ -74,12 +74,12 @@ def sharpen_hsv(image, plot=False):
 
 
 # Specify the paths
-output_directory = "./image sharpening/sharpened_images/"  # Specify your output directory here
+output_directory = "./PreprocessTechnique/sharpened_images/"  # Specify your output directory here
 if not os.path.exists(output_directory):
     os.makedirs(output_directory)
 
 
-# # ------- Loop through all PNG files in the directory --------
+# # ------- Loop through all JPG files in the directory --------
 img_directory = "../dataset/Dates/"
 i=1
 for imgPath in glob.glob(os.path.join(img_directory, "*.jpg")):
