@@ -5,6 +5,8 @@
     - [Image Background Remover With U2Net](#image-background-remover-using-u2net)
         - [Overview](#overview)
         - [Usage](#usage)
+    - [Image Denoising and Sharpening](#image-denoising-and-sharpening)
+        - [Usage](#usage-for-denoising)
 
 2. [3D Image Reconstruction Using InstantMesh](#3d-image-reconstruction-using-instantmesh)
     - [Examples](#3d-examples)
@@ -36,10 +38,39 @@ The Image Background Remover is a program designed to remove backgrounds from im
 To use the image background remover, their is required structure for the directories for the program to work. The code and model inside the `Image Denoising` directory is independant of the files and directories outside of it. You can download the `Image Denoising` by itself to run this code individually.
 
 1. Make sure the `Image Denoising` directory is downloaded and saved on your device
-2. Install the required dependencies: `pip install -r requirements.txt`
+2. Install the required dependencies in the main repository file: `pip install -r requirements.txt`
 3. You'll need to download the actual pre-trained model `u2net.pth` and save it inside the `saved_models/u2net/` directory. Download the model from this [Google Drive Folder](https://drive.google.com/file/d/1ao1ovG1Qtx4b7EoskHXmi2E9rp5CHLcZ/view)
 4. You might need to fix the file paths used in the `__init__.py` file to allow the code to run on your own local machine
 5. Run the app.py script: `python __init__.py`
+
+
+## Image Denoising and Sharpening
+
+After removing the image background, further enhancement can be applied by denoising and sharpening the images. These processes refine the visual quality by reducing residual noise and enhancing edges and details. The sharpening step leverages the `unsharp_mask` function from `skimage` to highlight finer image details.
+
+### Usage for Denoising
+
+To utilize the denoising and sharpening functionalities:
+
+1. **Download and Save**: Ensure the codebase is downloaded and saved on your local device.
+2. **Install Dependencies**: Install the required dependencies included in the repository base file by running:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Configure File Paths**: Update the directory paths in the following files to match your local setup:  
+   - `threshold_segmentation_denoise.py`  
+   - `sharper_image.py`
+4. **Run the Scripts**:
+   - Execute the denoising process:  
+     ```bash
+     python threshold_segmentation_denoise.py
+     ```
+   - Execute the sharpening process:  
+     ```bash
+     python sharper_image.py
+     ```
+
+These steps will help enhance the image quality, ensuring clearer and more detailed outputs for downstream tasks.  
 
 
 ---
