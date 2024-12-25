@@ -4,13 +4,15 @@ This repo is the derived implementation of InstantMesh. For original repo, visit
 for an intercative demo visit [![Button Text](https://img.shields.io/badge/Button-Click%20Here-blue)]([https://your-link.com](https://colab.research.google.com/drive/1spbyRA6ZNWDsZU1ZHt_-w_a4aeqZF9KU?usp=sharing))
 ## 3D examples
 
-https://github.com/UpM-BSc-Ai-projects/IP_Project/CloneInstantMesh/BD_3D_example.gif
-https://github.com/UpM-BSc-Ai-projects/IP_Project/CloneInstantMesh/JD_3D_example.gif
-https://github.com/UpM-BSc-Ai-projects/IP_Project/CloneInstantMesh/KD_3D_example.gif
+![Local Image](https://github.com/UpM-BSc-Ai-projects/IP_Project/CloneInstantMesh/BD_3D_example.gif)
+![Local Image](https://github.com/UpM-BSc-Ai-projects/IP_Project/CloneInstantMesh/JD_3D_example.gif)
+![Local Image](https://github.com/UpM-BSc-Ai-projects/IP_Project/CloneInstantMesh/KD_3D_example.gif)
+
+
 
 ## Model Architecture
 
-https://github.com/UpM-BSc-Ai-projects/IP_Project/CloneInstantMesh/model_architecture.png
+![Local Image](https://github.com/UpM-BSc-Ai-projects/IP_Project/CloneInstantMesh/model_architecture.png)
 
 ## Dependencies and Installation
 We recommend using Python>=3.10, PyTorch>=2.1.0, and CUDA>=12.1.
