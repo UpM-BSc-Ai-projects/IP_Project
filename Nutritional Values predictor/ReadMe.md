@@ -1,4 +1,4 @@
-Here’s a README.md file for your project:
+
 
 # Nutritional Value Prediction of Dates Using Machine Learning and Deep Learning
 
