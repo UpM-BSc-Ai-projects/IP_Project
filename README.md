@@ -4,9 +4,9 @@ This repo is the derived implementation of InstantMesh. For original repo, visit
 for an intercative demo visit [![Button Text](https://img.shields.io/badge/Button-Click%20Here-blue)]([https://your-link.com](https://colab.research.google.com/drive/1spbyRA6ZNWDsZU1ZHt_-w_a4aeqZF9KU?usp=sharing))
 ## 3D examples
 
-![Demo](https://github.com/UpM-BSc-Ai-projects/IP_Project/CloneInstantMesh/BD_3D_example.gif)
-![Demo](https://github.com/UpM-BSc-Ai-projects/IP_Project/CloneInstantMesh/JD_3D_example.gif)
-![Demo](https://github.com/UpM-BSc-Ai-projects/IP_Project/CloneInstantMesh/KD_3D_example.gif)
+![Demo](https://github.com/UpM-BSc-Ai-projects/IP_Project/blob/main/CloneInstantMesh/BD_3D_example.gif)
+![Demo](https://github.com/UpM-BSc-Ai-projects/IP_Project/blob/main/CloneInstantMesh/JD_3D_example.gif)
+![Demo](https://github.com/UpM-BSc-Ai-projects/IP_Project/blob/main/CloneInstantMesh/KD_3D_example.gif)
 
 
 
